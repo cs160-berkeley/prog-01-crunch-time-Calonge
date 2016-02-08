@@ -1,0 +1,20 @@
+<resources>
+    <string name="calories">Calories</string>
+    <string name="jogging">Jogging(min)</string>
+    <string name="situps">Situps(reps)</string>
+    <string name="leg_lifts">Leg-lifts(min)</string>
+    <string name="jumping_jacks">Jumping-Jacks(min)</string>
+    <string name="stair_climbing">Stair-Climbing(min)</string>
+    <string name="swimming">Swimming(min)</string>
+    <string name="walking">Walking(min)</string>
+    <string name="squats">Squats(reps)</string>
+    <string name="pull_ups">Pullups(reps)</string>
+    <string name="plank">Plank(min)</string>
+    <string name="push_ups">Pushups(reps)</string>
+    <string name="cycling">Cycling(min)</string>
+    <string name="app_name">CrunchTime</string>
+    <string name="action_settings">Settings</string>
+    <string name="compute_button">Compute</string>
+    <string name="number_input">Enter a number</string>
+    <string name="display_computation">Workout Computation</string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_main">
+        <EditText android:id="@+id/number_input"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:hint="@string/number_input"
+            android:layout_gravity="center_vertical" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="390dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Pushups(Reps)"
+                android:id="@+id/push_ups_id"
+                android:onClick="onClick" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Situps(Reps)"
+                android:id="@+id/sit_ups_id"
+                android:onClick="onClick" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/jumping_jacks"
+                android:id="@+id/jumping_jacks_id"
+                android:onClick="onClick" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/jogging"
+                android:id="@+id/jogging_id"
+                android:onClick="onClick" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/squats"
+                android:id="@+id/squats_id"
+                android:onClick="onClick" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/leg_lifts"
+                android:id="@+id/leg_lifts_id"
+                android:onClick="onClick" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/plank"
+                android:id="@+id/plank_id"
+                android:onClick="onClick" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/pull_ups"
+                android:id="@+id/pull_ups_id"
+                android:onClick="onClick" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/cycling"
+                android:id="@+id/cycling_id"
+                android:onClick="onClick" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/walking"
+                android:id="@+id/walking_id"
+                android:onClick="onClick" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/swimming"
+                android:id="@+id/swimming_id"
+                android:onClick="onClick" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/stair_climbing"
+                android:id="@+id/stair_climbing_id"
+                android:onClick="onClick" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/calories"
+                android:id="@+id/calories_id"
+                android:onClick="onClick" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="173dp"
+        android:layout_height="116dp"
+        android:text="@string/compute_button"
+        android:onClick="compute"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+
